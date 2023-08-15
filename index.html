@@ -1,0 +1,107 @@
+<!--Creating an HTML Document
+Create a basic HTML document with a <!DOCTYPE html> declaration, an opening and closing <html> tag, a <head> section containing a <title> tag, and a <body> section.-->
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <title>My First HTML Document</title>
+
+<!--Adding Basic CSS
+Add a <style> tag inside the <head> section and provide basic CSS styling for your headings, paragraphs, lists, images, hyperlinks, navigation menu, and footer.-->
+      <style>
+        body {
+          font-family: Arial, sans-serif;
+        }
+        h1, h2 {
+          color: #333;
+        }
+        a {
+          text-decoration: none;
+          color: blue;
+        }
+        a:hover {
+          color: red;
+        }
+        nav ul {
+          list-style-type: none;
+          padding: 0;
+        }
+        nav li {
+          display: inline;
+          margin-right: 10px;
+        }
+        footer {
+          text-align: center;
+          font-size: 0.8em;
+        }
+
+/* Creating a Responsive Design
+Add a media query inside the <style> tag to make your navigation menu and other page elements responsive.*/
+
+        @media screen and (max-width: 600px) {
+    nav li {
+      display: block;
+      margin-bottom: 10px;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+      </style>
+    </head>
+
+<!--Adding Headings and Paragraphs
+Add a level 1 heading (<h1>) and two paragraphs (<p>) inside the <body> section of your HTML document.-->
+    <body>
+        <!-- Creating a Navigation Menu -->
+        <!--Create a simple navigation menu using an unordered list (<ul>) and hyperlinks (<a>).-->
+    <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+        <h1>Welcome to My Website</h1>
+        <p>My name is Pradeep Shrestha, and this is my personal website.</p>
+        <p>I love web development and sharing my knowledge with others.</p>
+        Creating Lists
+
+<!--Create an ordered list (<ol>) and an unordered list (<ul>) inside the <body> section, each containing three list items (<li>).-->
+        <h2>My Hobbies</h2>
+        <ol>
+          <li>Playing guitar</li>
+          <li>Reading books</li>
+          <li>Traveling</li>
+        </ol>
+        <h2>My Favorite Websites</h2>
+        <ul>
+          <li>guitarist.com</li>
+          <li>readme.com</li>
+          <li>travelislife.com</li>
+        </ul>
+        Adding Images
+
+<!--Add an image (<img>) inside the <body> section, using the src attribute to specify the image file URL.-->
+        <h2>My Favorite Place</h2>
+        <img src="Swayambhunath.jpg" alt="A beautiful Picture of Swayambhunath">
+        <!--Creating Hyperlinks
+
+Add three hyperlinks (<a>) inside the <body> section, each pointing to a different website.-->
+        <h2>My Social Media Profiles</h2>
+        <ul>
+            <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
+            <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
+            <li><a href="https://linkedin.com" target="_blank">LinkedIn</a></li>
+        </ul>
+  
+
+
+<!--Adding a Footer
+Add a footer (<footer>) inside the <body> section, containing a copyright notice.-->
+    <footer>
+        <p>&copy; 2022 Pradeep Shrestha. All rights reserved.</p>
+      </footer>
+    </body>
+    </html>
